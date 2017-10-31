@@ -1,0 +1,76 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="262" height="52" viewBox="0 0 262 52">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        font-size: 13px;
+        fill: #26a6d1;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Arial;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 28px;
+      }
+
+      .cls-2 {
+        fill: #2b414d;
+      }
+      
+      .cls-2, .cls-3 {
+        letter-spacing: 0.01em;
+      }
+      
+      .cls-4 {
+        fill: #324d5b;
+        font-family: Arial;
+      }
+
+      .cls-5 {
+        fill: #51bba8;
+      }
+
+      .cls-6 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <text font-size="13px" fill="#26a6d1" font-family="Arial" font-weight="700" text-transform="uppercase" id="YOUR_SPORT_DASHBOARD" data-name="YOUR SPORT DASHBOARD" class="cls-1" x="87.817" y="47.437">YOUR SPORT DASHBOARD</text>
+  <text font-size="28px" fill="#2b414d" letter-spacing="0.01em" id="SPORTHERE" class="cls-2" x="85.816" y="26.438"><tspan font-family="Arial" font-weight="700" text-transform="uppercase" font-size="28px" letter-spacing="0.01em" class="cls-3">SPORT</tspan><tspan fill="#324d5b" font-family="Arial" class="cls-4">HERE</tspan></text>
+  <g id="pic">
+    <rect fill="#51bba8" id="base" class="cls-5" width="64" height="52" rx="4" ry="4"/>
+    <path fill="#fff" fill-rule="evenodd" id="lines" class="cls-6" d="M188,73H136a2.075,2.075,0,0,0-2,2v40a2.12,2.12,0,0,0,2,2h52a2.091,2.091,0,0,0,2-2V75A2.117,2.117,0,0,0,188,73Zm-28,27.649a5.98,5.98,0,0,1,0-11.3v11.3Zm4-11.3a5.98,5.98,0,0,1,0,11.3v-11.3ZM140,113a2,2,0,0,1-2-2V79a2,2,0,0,1,2-2h20v8.2a10,10,0,0,0,0,19.6V113H140Zm46-2a2,2,0,0,1-2,2H164v-8.2a10,10,0,0,0,0-19.6V77h20a2,2,0,0,1,2,2v32Z" transform="translate(-130 -69)"/>
+  </g>
+</svg>

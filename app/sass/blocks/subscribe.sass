@@ -1,0 +1,58 @@
+.subscribe
+
+  background-color: $second-color
+
+  &__container
+    max-width: $cw
+    margin: 0 auto
+    padding-top: 80px
+    padding-bottom: 110px
+    padding-left: 50px
+    padding-right: 50px
+
+  &__title
+    +title
+    color: #fff
+
+  &__form
+    margin-top: 35px
+    margin-bottom: 40px
+    display: flex
+    justify-content: center
+
+  &__form-field
+    margin-right: 20px
+    width: 100%
+    max-width: 400px
+    height: 53px
+    padding-left: 20px
+    padding-right: 20px
+    border: none
+    border-radius: 5px
+
+    &::placeholder
+      color: #ccd0d2
+
+  &__form-submit-wrapper
+    position: relative
+
+  &__form-submit
+    height: 53px
+    width: 100%
+
+  &__text
+    +text
+    max-width: 580px
+    color: #fff
+
++maw(612px)
+  .subscribe__form-field
+    margin-right: 10px
+
++maw(425px)
+  .subscribe__form
+    flex-direction: column
+
+  .subscribe__form-field
+    margin-right: 0
+    margin-bottom: 15px

@@ -1,0 +1,59 @@
+.features
+
+  &__container
+    margin: 0 auto
+    max-width: $cw
+    padding-top: 75px
+    padding-left: 50px
+    padding-right: 50px
+
+  &__title
+    +title
+
+  &__desc
+    +text
+
+  &__item-container
+    margin-top: 85px
+    margin-bottom: 50px
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+
+  &__item
+    margin-bottom: 50px
+    flex-basis: 33.3%
+    min-width: 310px
+    max-width: 33.3%
+    padding-left: 25px
+    padding-right: 25px
+    text-align: center
+
+    &-img
+      width: 65px
+      height: 65px
+
+    &-title
+      position: relative
+      margin-top: 30px
+      margin-bottom: 40px
+      font-size: 18px
+      line-height: 19px
+      text-transform: uppercase
+
+      &::before
+        content: ""
+        position: absolute
+        bottom: -20px
+        left: 50%
+        transform: translate(-50%)
+        width: 22px
+        height: 2px
+        background-color: #ccd0d2
+
+
+    &-desc
+      font-size: 14px
+      line-height: 21px
+      color: $text-color
+

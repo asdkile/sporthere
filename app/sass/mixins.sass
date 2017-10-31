@@ -1,0 +1,31 @@
+=maw($width)
+  @media (max-width: $width)
+    @content
+
+=miw($width)
+  @media (min-width: $width)
+    @content
+
+=r
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+    @content
+
+=ie
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+    @content
+
+=title
+  margin-bottom: 25px
+  text-align: center
+  font-size: 30px
+  font-weight: 400
+  line-height: 40px
+  color: $title-color
+
+=text
+  max-width: 815px
+  margin: 0 auto
+  text-align: center
+  font-size: 17px
+  line-height: 26px
+  color: $text-color

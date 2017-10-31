@@ -1,0 +1,53 @@
+.social-links
+  margin: 0
+  padding: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-wrap: wrap
+  list-style: none
+
+  li
+    margin-right: 25px
+
+    &:last-child
+      margin-right: 0
+
+  &__link
+    display: flex
+    width: 48px
+    height: 48px
+    border-radius: 50%
+
+    svg
+      margin: auto
+      max-height: 35px
+      max-width: 35px
+      transition: transform .3s ease
+
+    &:hover
+      svg
+        transform: scale(1.3)
+        transform-origin: center center 0
+        overflow: visible
+
+
+    &--fb
+      background-color: #3b5998
+
+      svg
+        width: 8px
+        height: 16px
+
+    &--tw
+      background-color: #55acee
+      svg
+        width: 19px
+        height: 15px
+
+    &--gp
+      background-color: #dd4b39
+      svg
+        width: 15px
+        height: 16px
+

@@ -1,0 +1,58 @@
+.page-footer
+
+  &__container
+    max-width: $cw
+    margin: 0 auto
+    padding-top: 90px
+    padding-bottom: 90px
+    padding-left: 50px
+    padding-right: 50px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &__copyright
+    font-size: 14px
+    color: #6a6a6a
+
+  &__link
+    color: $main-color
+    font-weight: 600
+    text-decoration: none
+
+    &:hover
+      text-decoration: underline
+
+    &--appstore
+      display: flex
+      align-items: center
+      font-size: 14px
+      font-weight: 400
+      color: $second-color
+
+      svg
+        width: 36px
+        height: 36px
+        margin-right: 10px
+
++maw(860px)
+  .page-footer__logo
+    display: none
+
++maw(760px)
+  .page-footer__container
+    flex-direction: column
+    padding-top: 70px
+    padding-bottom: 70px
+
+  .page-footer__copyright
+    order: 1
+    margin-bottom: 35px
+
+  .page-footer__link--appstore
+    order: 0
+    padding-top: 0
+    margin-bottom: 30px
+
+  .page-footer__social-links
+    order: 3

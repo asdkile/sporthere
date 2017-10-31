@@ -1,0 +1,87 @@
+.app
+  background-color: $main-color
+  color: #fff
+
+  &__container
+    margin: 0 auto
+    box-sizing: border-box
+    max-width: $cw
+    padding-top: 115px
+    padding-bottom: 150px
+    padding-left: 50px
+    padding-right: 50px
+    background: url(../img/img_phone.png) bottom right 50px no-repeat
+
+  &__wrapper
+    width: 50%
+
+  &__title
+    font-size: 55px
+    line-height: 60px
+    text-transform: uppercase
+
+  &__desc
+    font-size: 18px
+    line-height: 30px
+
+  &__buttons
+    margin-top: 40px
+
+
+  &__link
+    display: inline-block
+    margin-left: 35px
+    text-decoration: none
+    color: #fff
+    font-size: 20px
+    line-height: 16px
+    text-transform: uppercase
+    font-weight: 700
+
+    &:hover
+      text-decoration: underline
+
++maw(820px)
+  .app__title
+    font-size: 40px
+    line-height: 50px
+
++maw(742px)
+  .app__container
+    padding-top: 40px
+    padding-bottom: 615px
+    background-position: bottom center
+
+  .app__wrapper
+    width: auto
+    max-width: 350px
+    margin: 0 auto
+
+  .app__title
+    text-align: center
+
+  .app__desc
+    text-align: center
+
+  .app__buttons
+    max-width: 330px
+    margin-left: auto
+    margin-right: auto
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+
+  .app__link
+    margin-left: 0
+    vertical-align: middle
+    display: flex
+    align-items: center
+
++maw(425px)
+
+  .app__buttons
+    flex-direction: column
+    align-items: center
+
+  .app__link
+    margin-top: 25px

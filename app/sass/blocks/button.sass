@@ -1,0 +1,27 @@
+.button
+  display: inline-block
+  padding: 15px 20px
+  border: none
+  border-radius: 5px
+
+  background-color: #fff
+  font-size: 20px
+  font-weight: 700
+  line-height: 16px
+  color: $second-color
+  text-transform: uppercase
+  cursor: pointer
+  text-decoration: none
+  transition: box-shadow .3s ease, background-color .3s ease
+  vertical-align: center
+
+  &:hover
+    background-color: #f6f6f6
+    box-shadow: 1px 0 10px rgba(0,0,0,.26)
+
+
+  &--wide
+    padding: 15px 30px
+
+  &:disabled
+    cursor: auto

@@ -1,0 +1,160 @@
+.slider
+  background-color: #f6f6f6
+
+  &__container
+    position: relative
+    margin: 0 auto
+    max-width: $cw
+    padding-left: 50px
+    padding-right: 50px
+
+  &__prev, &__next
+    position: absolute
+    top: 50%
+    width: 40px
+    height: 40px
+    border-top: 4px solid #ccd0d2
+    border-left: 4px solid #ccd0d2
+    z-index: 3
+    transition: border-color .3s ease
+    cursor: pointer
+    -webkit-tap-highlight-color: transparent;
+
+    &:hover
+      border-color: #9d9d9d
+
+    &::before
+      content: ''
+      display: table
+      width: 100%
+      height: 100%
+
+    &.disable
+      border-color: transparent
+      transition: border-color 0.3s ease
+      cursor: auto
+
+  &__prev
+    left: 70px
+    transform: rotate(-45deg)
+    &::before
+      transform: rotate(45deg) translateX(-50%) scaleY(1.6) scaleX(1.4)
+
+  &__next
+    right: 70px
+    transform: (rotate(135deg))
+    &::before
+      transform: rotate(135deg) translateY(50%) scaleX(1.6) scaleY(1.4)
+
+  &__content
+    max-width: 820px
+    margin: 0 auto
+
+  &__pagination
+    display: none
+    justify-content: center
+    margin: 0 auto
+    padding: 0
+    padding-top: 70px
+    padding-bottom: 10px
+    max-width: 160px
+    list-style: none
+
+    li
+      margin-right: 12px
+      width: 12px
+      height: 12px
+      border-radius: 50%
+      background-color: #ccd0d2
+      cursor: pointer
+
+      &:last-child
+        margin-right: 0
+
+      &.active
+        background-color: $main-color
+
+  &__slide
+    padding-top: 80px
+    display: flex
+    justify-content: center
+
+  &__img-wrap
+    display: flex
+    flex-basis: 50%
+    align-items: center
+    padding-right: 50px / ($cw - 50px) * 100%
+    font-size: 0
+
+  &__slide-img
+    margin-left: auto
+    width: 305px
+    user-select: none;
+
+  &__text-wrap
+    flex-basis: 50%
+    margin-bottom: 100px
+    padding-top: 65px
+    padding-left: 50px / ($cw - 50px) * 100%
+    padding-right: 60px / ($cw - 50px) * 100%
+
+  &__slide-title
+    +title
+    text-align: left
+
+  &__slide-desc
+    +text
+    text-align: left
+
++maw(960px)
+  .slider__img-wrap
+    padding-right: 25px
+    flex-basis: 40%
+
+  .slider__text-wrap
+    padding-left: 25px
+    padding-right: 0
+    flex-basis: 40%
+
++maw(860px)
+  .slider__text-wrap
+    padding-top: 40px
+
+
++maw(760px)
+  .slider__container
+    padding-left: 0
+    padding-right: 0
+
+  .slider__prev, .slider__next
+    display: none
+
+  .slider__pagination
+    display: flex
+
+
+  .slider__slide
+    flex-direction: column
+    padding: 0 50px
+
+  .slider__img-wrap
+    flex-basis: auto
+    order: 2
+    padding-right: 0
+
+
+  .slider__slide-img
+    margin-right: auto
+
+  .slider__text-wrap
+    flex-basis: auto
+    order: 1
+    margin-bottom: 60px
+    padding-left: 0
+    padding-top: 0
+
+  .slider__slide-title
+    text-align: center
+
+  .slider__slide-desc
+    text-align: center

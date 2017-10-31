@@ -1,0 +1,8 @@
+node_modules/
+build/
+mockup/
+.git/
+app/css/*.css
+**/Thumbs.db
+**/*.DS_Store
+**/*.psd
